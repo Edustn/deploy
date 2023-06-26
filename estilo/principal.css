@@ -1,0 +1,53 @@
+body {
+    background-color: #f9e6d1
+        /* #c8abfd; */
+}
+
+#nao {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #EB3E32;
+}
+
+#sim {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    background-color: #44EB60;
+
+}
+
+#sim:hover {
+    background-color: #7DFF93;
+    color: #000000;
+
+}
+
+.botao {
+    font-family: 'Bacasime Antique', serif;
+    font-size: 2.5em;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border: none;
+    border-radius: 20px;
+}
+
+#p1 {
+    font-family: 'Bacasime Antique', serif;
+    font-size: 3.5em;
+
+
+}
+
+.container1 {
+    height: 50vh;
+    /* Define a altura do container para ocupar toda a altura da viewport */
+    display: flex;
+    align-items: center;
+    /* Centraliza verticalmente os itens */
+    justify-content: center;
+    /* Centraliza horizontalmente os itens */
+}
